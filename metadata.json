@@ -1,0 +1,6 @@
+{
+  "name": "gatobranco | Páginas Ultravelozes",
+  "description": "Landing Page de Resposta Direta do estúdio cirúrgico gatobranco, focado em páginas ultravelozes com Risco Zero.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
