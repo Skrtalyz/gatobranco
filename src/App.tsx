@@ -342,6 +342,74 @@ export default function App() {
         </div>
       </section>
 
+      {/* ANTES E DEPOIS (Comparativo de Performance) */}
+      <section id="antes-depois" className="py-20 md:py-28 bg-black border-b border-zinc-900">
+        <div className="max-w-5xl mx-auto px-4">
+          
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <span className="text-zinc-500 font-mono text-xs uppercase tracking-widest block mb-3">// O contraste real</span>
+            <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight uppercase text-white">
+              Antes &amp; Depois
+            </h2>
+            <p className="text-zinc-400 text-sm font-light mt-4">
+              Compare a diferença visual e de carregamento de um site comum versus o padrão cirúrgico de ultravelocidade da gatobranco.
+            </p>
+            <div className="w-12 h-0.5 bg-white mx-auto mt-6"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-stretch">
+            
+            {/* Antes Panel */}
+            <div className="border border-zinc-900 bg-zinc-950/20 p-4 sm:p-6 flex flex-col justify-between group transition-all duration-300 hover:border-zinc-850">
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="font-mono text-xs tracking-widest text-zinc-500">// ANTES</span>
+                  <span className="px-2 py-0.5 border border-zinc-900 bg-zinc-950 text-zinc-500 text-[10px] font-bold uppercase tracking-wider">
+                    Lento &amp; Genérico
+                  </span>
+                </div>
+                <p className="text-zinc-400 text-xs sm:text-sm font-light leading-relaxed mb-6">
+                  Templates pesados de construtores visuais arrastam a velocidade de carregamento lá para baixo, fazendo você perder mais da metade dos cliques que compra nos anúncios.
+                </p>
+              </div>
+              <div className="bg-zinc-950 border border-zinc-900 overflow-hidden">
+                <img 
+                  src="https://i.postimg.cc/PJZxrkLt/2.png" 
+                  alt="Antes - Site Lento" 
+                  referrerPolicy="no-referrer"
+                  className="w-full h-auto object-cover grayscale opacity-50 group-hover:opacity-75 group-hover:grayscale-0 transition-all duration-500 select-none"
+                />
+              </div>
+            </div>
+
+            {/* Depois Panel */}
+            <div className="border border-zinc-800 bg-zinc-950/40 p-4 sm:p-6 flex flex-col justify-between group transition-all duration-300 hover:border-zinc-500">
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="font-mono text-xs tracking-widest text-white">// DEPOIS</span>
+                  <span className="px-2 py-0.5 border border-zinc-750 bg-zinc-900 text-white text-[10px] font-bold uppercase tracking-wider">
+                    Padrão Gatobranco
+                  </span>
+                </div>
+                <p className="text-zinc-300 text-xs sm:text-sm font-light leading-relaxed mb-6">
+                  Código puro otimizado cirurgicamente para carregamento instantâneo inferior a 1 segundo. Design de altíssimo contraste feito exclusivamente para maximizar suas conversões de ticket alto.
+                </p>
+              </div>
+              <div className="bg-black border border-zinc-800 overflow-hidden">
+                <img 
+                  src="https://i.postimg.cc/FRYz8SNV/Captura-de-tela-2026-07-03-012229.png" 
+                  alt="Depois - Gatobranco Ultraveloz" 
+                  referrerPolicy="no-referrer"
+                  className="w-full h-auto object-cover opacity-90 group-hover:opacity-100 transition-all duration-500 select-none"
+                />
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
       {/* A OFERTA IRRECUSÁVEL (O Modelo Risco Zero) */}
       <section id="oferta" className="py-20 md:py-28 bg-zinc-950 border-b border-zinc-900">
         <div className="max-w-4xl mx-auto px-4">
